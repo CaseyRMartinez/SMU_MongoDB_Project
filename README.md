@@ -11,7 +11,7 @@ A document-style NoSQL database is perfect for this semi-structured dataset sinc
 
 
 
-![SQLblob](https://github.com/DataDriving/SMU_MongoDB_Project/blob/master/images/blob.PNG)
+![SQLblob](SMU_MongoDB_Project/images/blob.PNG)
 
 
 You can use the [editor on GitHub](https://github.com/DataDriving/SMU_MongoDB_Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
