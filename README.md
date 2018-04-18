@@ -1,6 +1,12 @@
 # Proper Database Model for Unsctructured Wind Turbine Vibration Data
-## Authors: Casey Martinez, Matt Rega, and Kyle Thomas
-### April 25th, 2018
+## SMU Masters Program - Database Management Course - Spring 2018
+### Authors: Casey Martinez, Matt Rega, and Kyle Thomas
+
+### Introduction
+
+Turbine vibration data has been stored in a MySQL database. A significant amount of analysis must be performed on these data sets. However, in order to fit into a relational database, the data has been stored as a BLOB along with associated meta-data. Storing data in this format has imposed limitation on the extraction and analysis. 
+
+A document-style NoSQL database is perfect for this semi-structured dataset since the analysis data will be stored as key-value pairs with no strict constraints regarding data types or formats. MongoDB will be used because it is popular and extremely scalable horizontally.  
 
 
 
