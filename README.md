@@ -1,4 +1,9 @@
-## Welcome to GitHub Pages
+# Proper Database Model for Unsctructured Wind Turbine Vibration Data
+## Authors: Casey Martinez, Matt Rega, and Kyle Thomas
+### April 25th, 2018
+
+
+
 
 ![SQLblob](https://github.com/DataDriving/SMU_MongoDB_Project/blob/master/images/blob.PNG)
 
