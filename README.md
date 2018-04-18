@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-![SQLblob](https://github.com/DataDriving/SMU_MongoDB_Project/edit/master/images/blob.png)
+![SQLblob](https://github.com/DataDriving/SMU_MongoDB_Project/blob/master/images/blob.PNG)
 
 
 You can use the [editor on GitHub](https://github.com/DataDriving/SMU_MongoDB_Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
