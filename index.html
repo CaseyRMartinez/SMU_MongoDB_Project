@@ -197,23 +197,60 @@ div#notebook {
 	<li> Future work </li>
 </ul>
 <br>
+<p>Fig. 1: Turbine Nacelle Diagram</p> 
 <center> <img src="images/Nacelle2.png" alt="Nacelle"></center>
+<center><a href="https://hackernoon.com/mongodb-vs-mysql-comparison-which-database-is-better-e714b699c38b">[source]</a></center>
 
 <h4><b>	Vibration Analysis: </b></h4>
-
-<center> <img src="images/Time.JPG" alt="Time"></center>
 <br>
-<center> <img src="images/FFT.JPG" alt="FFT"></center>
+<p> &nbsp &nbsp &nbsp &nbsp The goal of vibration analysis is simple: convert raw acceleration data into actionable information but teasing apart all the sources of vibration in a complex system. Figure 2 is an illustration of how multiple sources of vibration can add together. The grey, gold, and green lines represent various sources of vibration from the bearing raceways, rolling elements, or shaft. The RED line is the sum of the three separate signals. The data colleted from the sensor will only give the RED summation. Fortunately, there is a mathematical operation that can help called the <a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier Transform</a> (FFT).  Figure 3 illustrates how the FFT operation allows us to separate the sources of vibration into its components. The left time axis shows the combined signal described earlier. The right frequency axis shows the distinct peaks for the separate sources of vibration. This FFT analysis can be done for a variety of frequency ranges to give more details on certain areas of interest. Using the geometry of the equipment and the rotation speed of the shaft, we can compute the expected frequency of the components of the bearing. This allows one to diagnose specific defects based on the FFT peaks. For example, since the shaft rotation speed and the number of roller bearings are known, we can calculate the expected frequency of the outer raceway defect shown in figure 4. More information can be found <a href="http://www.maintenanceonline.co.uk/maintenanceonline/content_images/p32-42%20Lacey%20paper%20M&AM.pdf">here</a> and <a href="https://www.youtube.com/watch?v=5MNyLM0N6l0">here</a>.         </p>
+<br>
+<p>Fig. 2: Sine wave addition</p>
+<center> <img src="images/Time.JPG" alt="Time"></center>
+<center><a href="https://hackernoon.com/mongodb-vs-mysql-comparison-which-database-is-better-e714b699c38b">[source]</a></center>
 
+<br>
+<p>Fig. 3: FFT Illustation</p>
+<center> <img src="images/FFT2.png" alt="FFT"></center>
+<center><a href="https://hackernoon.com/mongodb-vs-mysql-comparison-which-database-is-better-e714b699c38b">[source]</a></center>
+
+<br>
+<p>Fig. 4: Bearing Defect Example</p>
+<center> <img src="images/bearing.gif" alt="Defect"></center>
+<center><a href="https://hackernoon.com/mongodb-vs-mysql-comparison-which-database-is-better-e714b699c38b">[source]</a></center>
 
 <h4><b>	Current MySQL Structure: </b></h4>
+<br>
+<p>&nbsp &nbsp &nbsp &nbsp The sample data provided by Pattern Energy was stored on the wind farm local server in a MySQL database. The sensors and database were installed by a third party to shutdown the turbine direcly if a alarm condition takes place. Based on a defined schedule, measurements are taken from the sensors and a suite of analysis are performed and saved. Proprietary software is used to setup the alarms, schedules, and to view the data(see figure 5 below). The structure of the database works fine for the proprietary software but is not easily accessable for reporting or modeling. The raw data is stored as a compressed hexidecimal <a href="https://dev.mysql.com/doc/refman/8.0/en/blob.html">BLOB</a>. This is a way to store unstructured data in SQL but the BLOB cannot be queried directly(see figure 6 below). We will outline a better way to store this unstructured data efficiently and make the data available for modeling and reporting. The first step was to copy a sample of data to a Google Cloud MySQL instance(see figure 7 below).  </p>
 
+<br>
+<p>Fig. 5: Proprietary Software</p>
+<center> <img src="images/ocular3.png" alt="ocular"></center>
+<br>
+<p>Fig. 6: MySQL Database</p>
 <center> <img src="images/blob2.png" alt="blob"></center>
 <br>
-
+<p>Fig. 7: Google Cloud</p>
+<center> <img src="images/MySQL_dup.JPG" alt="blob"></center>
+<br>
 
 <h4><b>	New MongoDB Structure: </b></h4>
+<br>
+<p> &nbsp &nbsp &nbsp &nbsp 
+	
+</p>
+<br>
+<p>Fig. 8: MySQL vs. MongoDB </p>
+<center> <img src="images/comparison.png" alt="comparison"></center>
+<center><a href="https://hackernoon.com/mongodb-vs-mysql-comparison-which-database-is-better-e714b699c38b">[source]</a></center>
 
+<br>
+<p>Fig. 9: Basic MongoDB </p>
+<center> <img src="images/Compass2.png" alt="Compass"></center>
+
+<br>
+<p>Fig. 9: MongoDB vs. BLOB</p>
+<center> <img src="images/Compass2.png" alt="Compass"></center>
 
 <!-- START OF JUPYTER NOTEBOOK -->
   <div tabindex="-1" id="notebook" class="border-box-sizing">
