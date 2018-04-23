@@ -236,7 +236,7 @@ div#notebook {
 
 <h4><b>	New MongoDB Structure: </b></h4>
 <br>
-<p> &nbsp &nbsp &nbsp &nbsp The main benefits of a database like MongoDB is that the database schema can change dynamically and the database size can scale horizontally. Since we are storing raw data from a variety of sensors and analysis(i.e. raw time-series, FFT, etc.), we want </p>
+<p> &nbsp &nbsp &nbsp &nbsp MongoDB is a document-style database that stores data in flexible, JSON-like documents, making it easy combine data of any structure. In this context, you can think of the documents as JSON BLOBs. Unlike the MySQL BLOBs, the data can queried. The main differences between MongoDB and MySQL are that the database schema can change dynamically and the database size can scale horizontally. This means if a new wind farm is added to the database with different components or new analysis techniques are developed, there is no need to force these changes into a rigid data-type constrained schema. Also, as the volume  The other differences are shown below in figure 8. A list of companies that use MongoDB can be found <a href="https://www.mongodb.com/who-uses-mongodb">here</a>. The terminology of MongoDB is different than MySQL and the translation is shown in figure 9. Since we are storing raw data from a variety of sensors and analysis(i.e. raw time-series, FFT, etc.), we want </p>
 
 <br>
 <p>Fig. 8: MySQL vs. MongoDB </p>
@@ -244,7 +244,7 @@ div#notebook {
 <center><a href="https://hackernoon.com/mongodb-vs-mysql-comparison-which-database-is-better-e714b699c38b">[source]</a></center>
 
 <br>
-<p>Fig. 9: MySQL vs. MongoDB </p>
+<p>Fig. 9: Terminology </p>
 <center> <img src="images/comparison2.JPG" alt="comparison"></center>
 <center><a href="https://dzone.com/articles/why-mongodb">[source]</a></center>
 
