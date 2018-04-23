@@ -184,9 +184,35 @@ div#notebook {
 <br>
 <h4><b>	Introduction: </b></h4>
 <br>
-<p> &nbsp &nbsp &nbsp &nbsp Wind turbine operators face a competitive marketplace for selling power. The historical low price of natural gas and the amazing success of solar and wind power has created thin margins. The operating cost of the wind farm can be the difference between making money and losing money in the long-term. Over the years there have been advances in technology and economies of scale that have improved over all uptime of equipment also known as availability. </p>
-  
+<p> &nbsp &nbsp &nbsp &nbsp Wind turbine operators face a competitive marketplace for selling power. The historically low price of natural gas and the amazing success of solar and wind power has created thin margins. This has greatly benefited customers and the environment. Since the upfront costs are fixed, the operating cost of the wind farm can be the difference between making money and losing money in the long-term. In recent years there have been advances in technology and economies of scale that have made great improvements in the uptime of equipment. One such improvement is vibration analysis also called condition montoring. These techniques have been widely adopted in other industries with high capital costs and strict uptime constraints (i.e. <a href="https://www.sciencedirect.com/science/article/pii/S0888327006001312">aircraft</a>, <a href="http://www.journalrepository.org/media/journals/BJAST_5/2016/Jan/AlAdawi1422015BJAST23163.pdf">gas turbines</a>, etc.). Vibration analysis is a way to interpret data from accelerometers attached to various parts of rotating equipment. Changes in the vibration signals can predict equipment failure in advance. This allows for repairs to be better planned before catastrophic damage has taken place. </p>
+<p> &nbsp &nbsp &nbsp &nbsp <a href="https://patternenergy.com/">Pattern Energy</a> is one such wind turbine operator that utilizes this approach to drive down operating costs. They have graciously allowed us to sample their data for this study. Vibration sensors are installed on various rotating parts inside the wind tubine. In this study, we will focus on data from the main bearing. This bearing connects the low-speed shaft from the hub to the nacelle structure where it can engage the gearbox. The gearbox will then step up the rotation speed for proper engagement with the generator where the electricity is produced. We focus on the main brearing here due to known failures in the sample data set.</p>
+<br>
+<p> In this report, we will outline the following: </p>
+<ul>
+	<li> A basic overview of the vibration data </li>
+	<li> How it is currently stored in the local MySQL database </li>
+	<li> Why we chose MongoDB</li>
+	<li> How we migrated the data </li>
+	<li> How we query MongoDB to generate a basic analysis. </li>
+	<li> Future work </li>
+</ul>
+<br>
+<center> <img src="images/Nacelle2.png" alt="Wind"></center>
 
+<h4><b>	Vibration Analysis: </b></h4>
+
+<center> <img src="images/Time.jpg" alt="Wind"></center>
+<br>
+<center> <img src="images/FFT.jpg" alt="Wind"></center>
+
+
+<h4><b>	Current MySQL Structure: </b></h4>
+
+<center> <img src="images/blob2.png" alt="Wind"></center>
+<br>
+
+
+<h4><b>	New MongoDB Structure: </b></h4>
 
 
 <!-- START OF JUPYTER NOTEBOOK -->

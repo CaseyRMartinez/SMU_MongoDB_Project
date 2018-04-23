@@ -1,0 +1,96 @@
+(function() {
+
+    var __hs_cta_json = {"css":"a#cta_button_637862_91c2927a-0c0b-4665-ba52-63eb9f8ea183 {\n  -webkit-font-smoothing:antialiased !important; \n  cursor:pointer !important; \n  -moz-user-select:none !important; \n  -webkit-user-select:none !important; \n  -o-user-select:none !important; \n  user-select:none !important; \n  display:inline-block !important; \n  font-weight:bold !important; \n  text-align:center !important; \n  text-decoration:none !important; \n  font-family:sans-serif !important; \n  border-radius:6px !important; \n  background-color:rgb(243,138,0) !important; \n  background-image:-webkit-linear-gradient(top, rgb(243,138,0), rgb(182,103,0)) !important; \n  background-image :-moz-linear-gradient(top, rgb(243,138,0), rgb(182,103,0)) !important; \n  box-shadow:inset 0px 1px rgb(255,172,0) !important; \n  -webkit-box-shadow:inset 0px 1px rgb(255,172,0) !important; \n  -moz-box-shadow:inset 0px 1px rgb(255,172,0) !important; \n  color:rgb(255, 255, 255) !important; \n  border:2px solid rgb(121,69,0) !important; \n  text-shadow:none !important; \n  line-height:1.5em !important; \n  padding:6px 18px !important; \n}\na#cta_button_637862_91c2927a-0c0b-4665-ba52-63eb9f8ea183:hover {\nbackground-color:rgb(255,151,0) !important; \nbackground-image:-webkit-linear-gradient(top, rgb(255,151,0), rgb(182,103,0)) !important; \nbackground-image :-moz-linear-gradient(top, rgb(255,151,0), rgb(182,103,0)) !important; \nbox-shadow:inset 0px 1px rgb(255,186,0), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \n-webkit-box-shadow:inset 0px 1px rgb(255,186,0), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \n-moz-box-shadow:inset 0px 1px rgb(255,186,0), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \ncolor:rgb(255,255,255) !important; \nborder:2px solid rgb(145,82,0) !important; \n}\na#cta_button_637862_91c2927a-0c0b-4665-ba52-63eb9f8ea183:active, #cta_button_637862_91c2927a-0c0b-4665-ba52-63eb9f8ea183:active:hover {\nbackground-color:rgb(182,103,0) !important; \nbackground-image:-webkit-linear-gradient(top, rgb(182,103,0), rgb(243,138,0)) !important; \nbackground-image :-moz-linear-gradient(top, rgb(182,103,0), rgb(243,138,0)) !important; \nbox-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \n-webkit-box-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \n-moz-box-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \ncolor:rgb(244,244,244) !important; \n}\n\n","image_html":"<a id=\"cta_button_637862_91c2927a-0c0b-4665-ba52-63eb9f8ea183\" class=\"cta_button\" href=\"https://cta-service-cms2.hubspot.com/ctas/v2/public/cs/c/?cta_guid=91c2927a-0c0b-4665-ba52-63eb9f8ea183&placement_guid=039bd41d-4124-4dba-976b-61adb3271953&portal_id=637862&redirect_url=APefjpEUl6h-BKbeErmYRXAbgdi0kdRjwDEr4evKgxKYnVtlVOw7ZbyvdVkQZ13TvM-K1PKTP4KGa_ppaev3uq9Lw3TUx95Ojjv3cWbmKArwshqNewJw5x7F_y20G1PEoncskfg3rYJ2d4zzcex1kP10a1ZlqpJlfiiN6HptaK8Ss1MYP6BXYqY&hsutk=c7a000001c7e1ddd16f50162f0602f43&canon=https%3A%2F%2Fblog.mide.com%2Fmatlab-vs-python-speed-for-vibration-analysis-free-download&click=a0ab29b4-38c9-4aee-b214-4bb5f17b2975&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=4313059103\"  cta_dest_link=\"http://info.mide.com/data-loggers/vibration-analysis-files-download-page\"><img id=\"hs-cta-img-039bd41d-4124-4dba-976b-61adb3271953\" class=\"hs-cta-img \" style=\"border-width: 0px; /*hs-extra-styles*/\" mce_noresize=\"1\" alt=\"Find Out More About Our Recording Files\" src=\"https://cdn2.hubspot.net/hubfs/637862/hub_generated/resized/e4decdc6-f596-49e2-9fb1-0f63af7aa499.jpeg\" /></a>","is_image":true,"placement_element_class":"hs-cta-039bd41d-4124-4dba-976b-61adb3271953","raw_html":"<a id=\"cta_button_637862_91c2927a-0c0b-4665-ba52-63eb9f8ea183\" class=\"cta_button \" href=\"https://cta-service-cms2.hubspot.com/ctas/v2/public/cs/c/?cta_guid=91c2927a-0c0b-4665-ba52-63eb9f8ea183&placement_guid=039bd41d-4124-4dba-976b-61adb3271953&portal_id=637862&redirect_url=APefjpEUl6h-BKbeErmYRXAbgdi0kdRjwDEr4evKgxKYnVtlVOw7ZbyvdVkQZ13TvM-K1PKTP4KGa_ppaev3uq9Lw3TUx95Ojjv3cWbmKArwshqNewJw5x7F_y20G1PEoncskfg3rYJ2d4zzcex1kP10a1ZlqpJlfiiN6HptaK8Ss1MYP6BXYqY&hsutk=c7a000001c7e1ddd16f50162f0602f43&canon=https%3A%2F%2Fblog.mide.com%2Fmatlab-vs-python-speed-for-vibration-analysis-free-download&click=a0ab29b4-38c9-4aee-b214-4bb5f17b2975&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=4313059103\"  style=\"/*hs-extra-styles*/\" cta_dest_link=\"http://info.mide.com/data-loggers/vibration-analysis-files-download-page\" title=\"Find Out More About Our Recording Files\"><span style=\"color: #ffffff; font-size: 24px; font-family: sans-serif; line-height: 1.5em;\">New Call-to-action</span></a>"};
+    var __hs_cta = {};
+
+    __hs_cta.drop = function() {
+        var is_legacy = document.getElementById('hs-cta-ie-element') && true || false,
+            html = __hs_cta_json.image_html,
+            tags = __hs_cta.getTags(),
+            is_image = __hs_cta_json.is_image,
+            parent, _style;
+
+        if (!is_legacy && !is_image) {
+            parent = (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]);
+
+            _style = document.createElement('style');
+            parent.insertBefore(_style, parent.childNodes[0]);
+            try {
+                default_css = ".hs-cta-wrapper p, .hs-cta-wrapper div { margin: 0; padding: 0; }";
+                cta_css = default_css + " " + __hs_cta_json.css;
+                // http://blog.coderlab.us/2005/09/22/using-the-innertext-property-with-firefox/
+                _style[document.all ? 'innerText' : 'textContent'] = cta_css;
+            } catch (e) {
+                // addressing an ie9 issue
+                _style.styleSheet.cssText = cta_css;
+            }
+
+            html = __hs_cta_json.raw_html;
+        }
+
+        for (var i = 0; i < tags.length; ++i) {
+
+            var tag = tags[i];
+            var images = tag.getElementsByTagName('img');
+            var cssText = "";
+            var align = "";
+            for (var j = 0; j < images.length; j++) {
+                align = images[j].align;
+                images[j].style.border = '';
+                images[j].style.display = '';
+                cssText = images[j].style.cssText;
+            }
+
+            if (align == "right") {
+                tag.style.display = "block";
+                tag.style.textAlign = "right";
+            } else if (align == "middle") {
+                tag.style.display = "block";
+                tag.style.textAlign = "center";
+            }
+
+            tag.innerHTML = html.replace('/*hs-extra-styles*/', cssText);
+            tag.style.visibility = 'visible';
+            tag.setAttribute('data-hs-drop', 'true');
+            window.hbspt && hbspt.cta && hbspt.cta.afterLoad && hbspt.cta.afterLoad('039bd41d-4124-4dba-976b-61adb3271953');
+        }
+
+        return tags;
+    };
+
+    __hs_cta.getTags = function() {
+        var allTags, check, i, divTags, spanTags,
+            tags = [];
+            if (document.getElementsByClassName) {
+                allTags = document.getElementsByClassName(__hs_cta_json.placement_element_class);
+                check = function(ele) {
+                    return (ele.nodeName == 'DIV' || ele.nodeName == 'SPAN') && (!ele.getAttribute('data-hs-drop'));
+                };
+            } else {
+                allTags = [];
+                divTags = document.getElementsByTagName("div");
+                spanTags = document.getElementsByTagName("span");
+                for (i = 0; i < spanTags.length; i++) {
+                    allTags.push(spanTags[i]);
+                }
+                for (i = 0; i < divTags.length; i++) {
+                    allTags.push(divTags[i]);
+                }
+
+                check = function(ele) {
+                    return (ele.className.indexOf(__hs_cta_json.placement_element_class) > -1) && (!ele.getAttribute('data-hs-drop'));
+                };
+            }
+            for (i = 0; i < allTags.length; ++i) {
+                if (check(allTags[i])) {
+                    tags.push(allTags[i]);
+                }
+            }
+        return tags;
+    };
+
+    // need to do a slight timeout so IE has time to react
+    setTimeout(__hs_cta.drop, 10);
+    window._hsq = window._hsq || [];
+    window._hsq.push(['trackCtaView', '039bd41d-4124-4dba-976b-61adb3271953', '91c2927a-0c0b-4665-ba52-63eb9f8ea183']);
+}());
